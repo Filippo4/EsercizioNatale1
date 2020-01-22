@@ -42,6 +42,7 @@ namespace EsercizioNatale1
                 int index = line.IndexOf(",");
                 string nome = line.Substring(0, index);
                 string voto = line.Substring(index + 1);
+                nomi.Add(nome);
 
             }
              
